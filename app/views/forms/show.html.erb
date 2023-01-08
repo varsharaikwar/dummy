@@ -1,0 +1,32 @@
+<div class="contact-shadow-box">
+    <p><%= @form.title %></p>
+    <p><%= @form.description %></p>
+    <p><%= @form.date %></p>
+    <p><%= @form.age %></p>
+    <p><%= @form.city %></p>
+    <p><%= @form.gender %></p>
+    <%= link_to 'Back', new_form_path, class: "btn btn-primary" %>
+    <td><%= link_to "Delete", form_path(@form), method: :delete, class: "btn btn-danger" %></td>
+</div>
+<style>
+    .header{
+        text-align: center;
+    }
+    .contact-shadow-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 800px;
+        position: relative;
+        left: 600px;
+        top: 100px;
+    }
+    .btn-primary{
+        margin-left: 707px;
+    }
+    .btn-danger{
+        margin-right: 707px;
+        margin-top: -45px;
+    }
+
+</style>

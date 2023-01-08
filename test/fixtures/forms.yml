@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  date: 2022-12-07
+  age: MyText
+  city: MyString
+  radio: MyString
+
+two:
+  title: MyString
+  description: MyText
+  date: 2022-12-07
+  age: MyText
+  city: MyString
+  radio: MyString
