@@ -1,7 +1,7 @@
 # Change these
 server '54.91.147.63', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,'https://github.com/varsharaikwar/dummy.git'
+set :repo_url,'git@github.com:varsharaikwar/dummy.git'
 set :application,     'dummy'
 set :user,            'ubuntu'
 set :branch,          'master'
