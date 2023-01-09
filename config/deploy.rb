@@ -1,8 +1,8 @@
 # Change these
-server '44.204.71.115', port: 22, roles: [:web, :app, :db], primary: true
+server '54.91.147.63', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,'git@github.com:dwivedivaibs/aws-school.git'
-set :application,     'aws-school'
+set :repo_url,'https://github.com/varsharaikwar/dummy.git'
+set :application,     'dummy'
 set :user,            'ubuntu'
 set :branch,          'master'
 set :puma_threads,    [4, 16]
