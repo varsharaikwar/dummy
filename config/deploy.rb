@@ -1,5 +1,5 @@
 # Change these
-server '54.91.147.63', port: 22, roles: [:web, :app, :db], primary: true
+server '3.87.198.101', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,'git@github.com:varsharaikwar/dummy.git'
 set :application,     'dummy'
